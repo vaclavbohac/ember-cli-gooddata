@@ -13,10 +13,10 @@ $ npm install ember-cli-gooddata --save
 
 Then you can install gooddata-js via bundled blueprint:
 ```sh
-$ ember generate gooddata-js
+$ ember generate gooddata
 ```
 
-or manually
+or manually via bower
 ```sh
 $ bower install gooddata/gooddata-js --save
 ```
