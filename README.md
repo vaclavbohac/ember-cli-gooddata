@@ -1,25 +1,22 @@
 # Ember-cli-gooddata
 
-This README outlines the details of collaborating on this Ember addon.
+This README outlines the details of using this Ember addon.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+You need to install ember-cli-gooddata plugin and [gooddata-js](https://github.com/gooddata/bower-gooddata-js) SDK.
 
-## Running
+Add `ember-cli-gooddata` to your package.json.
+```sh
+$ npm install ember-cli-gooddata --save
+```
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+Then you can install gooddata-js via bundled blueprint:
+```sh
+$ ember generate gooddata
+```
 
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+or manually via bower
+```sh
+$ bower install gooddata/gooddata-js --save
+```
